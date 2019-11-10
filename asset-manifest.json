@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-simple-game/static/css/main.4484d06a.chunk.css",
+    "main.js": "/react-simple-game/static/js/main.bd8e4b5c.chunk.js",
+    "main.js.map": "/react-simple-game/static/js/main.bd8e4b5c.chunk.js.map",
+    "runtime-main.js": "/react-simple-game/static/js/runtime-main.cb3b3d79.js",
+    "runtime-main.js.map": "/react-simple-game/static/js/runtime-main.cb3b3d79.js.map",
+    "static/js/2.0d05ee7d.chunk.js": "/react-simple-game/static/js/2.0d05ee7d.chunk.js",
+    "static/js/2.0d05ee7d.chunk.js.map": "/react-simple-game/static/js/2.0d05ee7d.chunk.js.map",
+    "index.html": "/react-simple-game/index.html",
+    "precache-manifest.1763a34af8404a9c909cac09afceb723.js": "/react-simple-game/precache-manifest.1763a34af8404a9c909cac09afceb723.js",
+    "service-worker.js": "/react-simple-game/service-worker.js",
+    "static/css/main.4484d06a.chunk.css.map": "/react-simple-game/static/css/main.4484d06a.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb3b3d79.js",
+    "static/js/2.0d05ee7d.chunk.js",
+    "static/css/main.4484d06a.chunk.css",
+    "static/js/main.bd8e4b5c.chunk.js"
+  ]
+}
