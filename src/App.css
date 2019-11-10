@@ -1,22 +1,91 @@
-.App {
-  text-align: center;
+body {
+   min-height: 94vh;
+   margin: 0;
+   background: linear-gradient(to top left, powderblue, lightgreen);
+   background-repeat: no-repeat;
+   font-family: "Droid Sans";
 }
 
-.App-logo {
-  height: 40vmin;
+.container {
+   position: relative;
+   margin: 5% 15%;
+   padding: 50px 0 40px;
+   border-radius: 8px;
+   box-shadow: 0 0 4px #666666;
+   background: #ffffff66;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container-btn {
+   display: flex;
+   justify-content: space-around;
 }
 
-.App-link {
-  color: #09d3ac;
+.container-ul-score {
+   display: flex;
+   justify-content: space-around;
+   list-style-type: none;
+   padding: 0;
+}
+
+.container-ul-actions {
+   padding: 0;
+}
+
+.btn {
+   cursor: pointer;
+   color: #515151;
+   font-size: 16px;
+   width: 100%;
+   max-width: 200px;
+   height: 35px;
+   border-radius: 6px;
+}
+
+.players-actions {
+   list-style-type: none;
+   margin-top: 10px;
+   text-align: center;
+   font-size: 18px;
+}
+
+.players-score {
+   font-size: 18px;
+}
+
+.container-modal-window {
+   position: fixed;
+   top: 4%;
+   left: 0%;
+   background: white;
+   border-radius: 8px;
+   box-shadow: 0 0 4px #666666;
+   height: 320px;
+   padding: 25px;
+   width: 100%;
+   z-index: 11;
+   border-radius: 20px;
+   padding: 0;
+}
+
+.modal-window-text {
+   margin: 90px auto 0;
+   color: #515151;
+   font-style: italic;
+   text-align: center;
+   text-transform: uppercase;
+   text-decoration: underline;
+}
+
+.modal-window-button {
+   display: block;
+   margin: 20px auto;
+   font-size: 18px;
+   font-style: italic;
+   cursor: pointer;
+   color: #515151;
+   font-size: 16px;
+   width: 100%;
+   max-width: 200px;
+   height: 35px;
+   border-radius: 6px;
 }
